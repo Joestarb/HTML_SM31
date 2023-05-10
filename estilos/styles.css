@@ -83,10 +83,33 @@ header  p {
     margin-right: 5rem;
 }
 /*--------------------------------------------Fin Header--------------------------------*/
-    .grid__section{
+
+/*-------------------------------------------contenido del body--------------------------*/
+.grid__section{
     display: grid;
     grid-template-columns:30% 30% 30%;
-    align-self: center;
+    gap: 5rem;
+}
+
+.alineado{
+    display: flex;  
+    justify-content: space-around;
+}
+
+.fondo__section{
+    background-image: url(../Imagenes/Woman_taking_coffe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    position: relative
+}
+
+.fondo__section2{
+    background-image: url(../Imagenes/carro_carretera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    position: relative
 }
 .section__carrosbmw{
     display: grid;
@@ -95,4 +118,12 @@ header  p {
 .imagen_carrosbmw{
     height: 30rem;
     width: 30rem;
+}
+/*fin body*/
+footer{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10rem;
 }

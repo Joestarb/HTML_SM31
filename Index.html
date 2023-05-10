@@ -8,6 +8,7 @@
     <title>BMW México | Carros deportivos</title>
 </head>
 <body>
+    <!-- inicio header -->
     <header class="hero">
         <video class="no_margin" src="/Video/Get lost in what you love _ BMW M2 F87 _ 4K _ NVT_Trim.mp4" autoplay muted loop></video>
         <nav>
@@ -60,42 +61,53 @@
             <button>cotiza ahora</button> <button>Mas informacion   </button>
         </div>
     </header>
+    <!-- fin header -->
 <main>
+    
+    <!-- seccion de informacion y cotizacion de vehiculo -->
     <section>
         <p class="font_bold alinear_texto">Herramientas de compras</p>
         <h2 class="alinear_texto">Encuentra tu BMW</h2>
-        <div class="grid__section">
-            <div >
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <circle cx="7" cy="17" r="2" />
-                    <circle cx="17" cy="17" r="2" />
-                    <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
-                  </svg>
-                <p>Disponibilidad Inmediata</p>
-                <button>Buscar ahora</button>
+
+        
+            <div class="grid__section alineado">
+    
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="7" cy="17" r="2" />
+                            <circle cx="17" cy="17" r="2" />
+                            <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+                          </svg>
+                        <p>Disponibilidad Inmediata</p>
+                        <button>Buscar ahora</button>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tool" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5" />
+                          </svg>
+                        <p>cita de servicio</p>
+                        <button>Agendar ahora</button>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="7" cy="17" r="2" />
+                            <circle cx="17" cy="17" r="2" />
+                            <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+                        </svg>
+                        <p>configura un vehiculo</p>
+                        <button>Configura y Precio</button>
+                    </div>
             </div>
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tool" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5" />
-                  </svg>
-                <p>cita de servicio</p>
-                <button>Agendar ahora</button>
-            </div>
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <circle cx="7" cy="17" r="2" />
-                    <circle cx="17" cy="17" r="2" />
-                    <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
-                </svg>
-                <p>configura un vehiculo</p>
-                <button>Configura y Precio</button>
-            </div>
-        </div>
+        
+        
     </section>
-    <section>
+    <!-- fin de info y cotizacion del vehiculo -->
+
+    <!-- informacion sobre disponibilidad -->
+    <section class="fondo__section">
             <h2>
                 TU PROXIMO BMW CON DISPONIBILIDAD INMEDIATA
             </h2>
@@ -103,14 +115,19 @@
              Descubrélo
             </button>
     </section>
+   <!-- fin informacion sobre disponibilidad Inmediata -->
     <br>
-    <section>
+    <!-- seccion informativa autos electricos -->
+    <section class="fondo__section2">
         <p class="no_margin">BMW ElÉCTRICOS</p>
         <h2 class="no_margin">LA EMOCIÓN DE</h2>
         <h2 class="no_margin"> DE CONDUCIR UN ElÉCTRICO</h2>
         <button>Más información</button>
     </section>
+     <!-- fin sesion informativa de autos electricos -->
     <br>
+
+    <!-- informacion sobre precios y fichas tecnicas -->
     <section class="section__carrosbmw">
         <div>
             <img class="imagen_carrosbmw" src="/Imagenes/carros_bmw.webp" alt="imagen_carros bmw">
@@ -125,6 +142,25 @@
         </div>
         
     </section>
+    <!-- fin de informacion sobre precios y fichas tecnicas -->
 </main>
 </body>
+<footer>
+<div class="contacto__footer">
+    <p>contacto</p>
+    <p>encuentra tu distribuidor</p>
+    <p>atencion a clientes</p>
+</div>
+<div class="encuentratubmw__footer">
+    <p>ENCUENTRA TU BMW</p>
+
+ <p>Disponibilidad inmediata BMW </p>
+ <p>Cotiza tu BMW </p>
+ <p>Agenda tu prueba de manejo </p>
+ <p>Configura tu BMW </p>
+ <p>Lista de precios </p>
+ <p>MyBMWApp </p>
+ <p>Agenda tu cita de servicio </p>
+</div>
+</footer>
 </html>
