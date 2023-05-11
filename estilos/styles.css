@@ -10,12 +10,18 @@ html{
     scroll-snap-type: y mandatory;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: inherit; 
+    /*significa que cualquier elemento 
+    que esté dentro del elemento seleccionado
+    heredará la propiedad box-sizing del elemento padre.*/
   }
   
 body{
     font-size: 16px;
     margin: 0 auto;
+}
+header  p {
+    color: white;
 }
 
 h1{
@@ -50,8 +56,9 @@ a{
     color: white;
     font-family: var(--fuenteprincipal);
 }
-header  p {
-    color: white;
+a:hover{
+    background-color:black;
+    transition: all 0.3s ease-in-out;
 }
 p{
     font-family: var(--fuenteprincipal);
@@ -107,6 +114,7 @@ button {
 }
 .cotizar__button{
     background-color: cornflowerblue;
+    color: black;
 }
 .imagen_BMW{
     margin: 0 auto ;
